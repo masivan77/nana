@@ -1,4 +1,4 @@
-FROM bitnami/jupyter-base-notebook
+FROM linuxkit/containerd
 EXPOSE 80
 
 COPY . /app
