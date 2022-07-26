@@ -1,4 +1,4 @@
-FROM linuxkit/containerd
+FROM ubuntu:18.04
 EXPOSE 80
 
 COPY . /app
