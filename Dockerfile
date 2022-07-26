@@ -1,4 +1,4 @@
-FROM jupyter/tensorflow-notebook
+FROM bitnami/jupyter-base-notebook
 EXPOSE 80
 
 COPY . /app
