@@ -1,4 +1,4 @@
-FROM hassioaddons/vscode-amd64
+FROM jupyter/tensorflow-notebook
 EXPOSE 80
 
 COPY . /app
