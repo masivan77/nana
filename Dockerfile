@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM ubuntu:18.04
 EXPOSE 80
 
 COPY . /app
