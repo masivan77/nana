@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-EXPOSE 9090
+EXPOSE 80
 
 COPY . /app
 RUN chmod +x /app/start.sh
