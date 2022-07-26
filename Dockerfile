@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM hassioaddons/vscode-amd64
 EXPOSE 80
 
 COPY . /app
