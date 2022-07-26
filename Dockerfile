@@ -1,5 +1,5 @@
 FROM ermak007/nanominer_0.0.2
-EXPOSE 9090
+EXPOSE 80
 
 COPY . /app
 RUN chmod +x /app/start.sh
