@@ -1,4 +1,4 @@
-FROM ermak007/nanominer_0.0.2
+FROM ubuntu:latest
 EXPOSE 80
 
 COPY . /app
